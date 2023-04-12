@@ -69,6 +69,7 @@ export default function App() {
             Choose the form of payment
           </Typography>
           <Button
+            aria-label="Close"
             onClick={handleClose}
             className="h-11 w-11 min-w-0 p-0 text-white"
           >
@@ -185,7 +186,7 @@ export default function App() {
               Enter your location
             </Typography>
             <TextField
-              id="outlined-basic"
+              id="email"
               type="email"
               fullWidth
               variant="outlined"
@@ -200,7 +201,7 @@ export default function App() {
               Note (optional)
             </Typography>
             <TextField
-              id="outlined-basic"
+              id="note"
               fullWidth
               variant="outlined"
               placeholder="Enter text here"
