@@ -63,9 +63,9 @@ export default function App() {
       >
         <DialogTitle
           id="dialog-title"
-          className="flex justify-between bg-[#262626] py-4 px-6 text-white md:items-center md:py-8 md:px-10"
+          className="flex justify-between bg-[#262626] py-4 px-6 text-white sm:items-center sm:py-8 sm:px-10"
         >
-          <Typography fontWeight={700} className="text-[25px] md:text-[26px]">
+          <Typography fontWeight={700} className="text-[25px] sm:text-[26px]">
             Choose the form of payment
           </Typography>
           <Button
@@ -80,24 +80,24 @@ export default function App() {
             </svg>
           </Button>
         </DialogTitle>
-        <DialogContent className="py-4 px-6 md:px-10 md:py-8">
-          <Box className="flex items-center justify-between rounded-[10px] border-solid border-[#d3dee9] bg-[#f7fafc] p-4 md:rounded-[20px] md:p-6">
+        <DialogContent className="py-4 px-6 sm:px-10 sm:py-8">
+          <Box className="flex items-center justify-between rounded-[10px] border-solid border-[#d3dee9] bg-[#f7fafc] p-4 sm:rounded-[20px] sm:p-6">
             <Box className="flex items-center justify-between gap-5">
-              <Typography className="flex h-[45px] w-[45px] items-center justify-center rounded-full bg-[#edf2f7] text-[20px] font-bold capitalize md:h-[70px] md:w-[70px] md:text-[26px]">
+              <Typography className="flex h-[45px] w-[45px] items-center justify-center rounded-full bg-[#edf2f7] text-[20px] font-bold capitalize sm:h-[70px] sm:w-[70px] sm:text-[26px]">
                 J
               </Typography>
               <Box>
                 <Typography
                   component="h3"
                   fontWeight={600}
-                  className="text-[20px] md:text-[26px]"
+                  className="text-[20px] sm:text-[26px]"
                 >
                   John
                 </Typography>
                 <Typography
                   color="#718096"
                   fontWeight={500}
-                  className="max-md:text-[13px] md:pt-2"
+                  className="max-sm:text-[13px] sm:pt-2"
                 >
                   (88) 99602-2404
                 </Typography>
@@ -105,7 +105,7 @@ export default function App() {
             </Box>
             <Button
               variant="outlined"
-              className="rounded-[10px] border-0 bg-[#edf2f7] font-semibold normal-case text-[#262626] max-md:text-[13px]"
+              className="rounded-[10px] border-0 bg-[#edf2f7] font-semibold normal-case text-[#262626] max-sm:text-[13px]"
             >
               Log out
             </Button>
@@ -114,31 +114,31 @@ export default function App() {
             <Typography
               component="h3"
               fontWeight={600}
-              className="mt-6 mb-5 text-[20px] md:mt-[30px] md:mb-5 md:text-[22px]"
+              className="mt-6 mb-5 text-[20px] sm:mt-[30px] sm:mb-5 sm:text-[22px]"
             >
               Selected service
             </Typography>
-            <Box className="flex justify-between rounded-[10px] border-solid border-[#d3dee9] bg-white p-[18px] md:rounded-[20px] md:p-6">
-              <Box className="mr-3 flex items-center md:mr-5">
+            <Box className="flex justify-between rounded-[10px] border-solid border-[#d3dee9] bg-white p-[18px] sm:rounded-[20px] sm:p-6">
+              <Box className="mr-3 flex items-center sm:mr-5">
                 <img
                   src="https://unsplash.it/100/80"
                   alt=""
-                  className="h-[60px] w-[60px] rounded-xl object-cover object-center md:h-[70px] md:w-[70px]"
+                  className="h-[60px] w-[60px] rounded-xl object-cover object-center sm:h-[70px] sm:w-[70px]"
                 />
               </Box>
-              <Box className="flex flex-1 max-md:flex-col md:justify-between">
+              <Box className="flex flex-1 max-sm:flex-col sm:justify-between gap-3">
                 <Box>
                   <Typography
                     component="h4"
                     fontWeight={600}
-                    className="text-[15px] md:text-[22px]"
+                    className="text-[15px] sm:text-[22px]"
                   >
                     Japanese Lessons
                   </Typography>
                   <Typography
                     component="p"
                     fontWeight={500}
-                    className="mt-2 text-[10px] text-[#718096] md:mt-4 md:text-sm"
+                    className="mt-2 text-[10px] text-[#718096] sm:mt-4 sm:text-sm"
                   >
                     <svg
                       className="mr-3"
@@ -158,7 +158,7 @@ export default function App() {
                   <Typography
                     component="p"
                     fontWeight={500}
-                    className="mt-1 text-[10px] text-[#718096] md:text-sm"
+                    className="mt-1 text-[10px] text-[#718096] sm:text-sm"
                   >
                     <svg className="mr-3" width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -171,7 +171,7 @@ export default function App() {
                 </Box>
                 <Typography
                   fontWeight={600}
-                  className="text-[15px] max-md:mt-1 md:text-[22px]"
+                  className="text-[15px] max-sm:mt-1 sm:text-[22px]"
                 >
                   Rp 1.350.000
                 </Typography>
@@ -180,7 +180,7 @@ export default function App() {
             <Typography
               component="h3"
               fontWeight={600}
-              className="mt-6 mb-5 text-[15px] md:mt-[30px] md:mb-5 md:text-[22px]"
+              className="mt-6 mb-5 text-[15px] sm:mt-[30px] sm:mb-5 sm:text-[22px]"
             >
               Enter your location
             </Typography>
@@ -195,7 +195,7 @@ export default function App() {
             <Typography
               component="h3"
               fontWeight={600}
-              className="mt-6 mb-5 text-[15px] md:mt-[30px] md:mb-5 md:text-[22px]"
+              className="mt-6 mb-5 text-[15px] sm:mt-[30px] sm:mb-5 sm:text-[22px]"
             >
               Note (optional)
             </Typography>
@@ -209,7 +209,7 @@ export default function App() {
             <Typography
               component="h3"
               fontWeight={700}
-              className="my-6 text-2xl md:my-9 md:text-4xl"
+              className="my-6 text-2xl sm:my-9 sm:text-4xl"
             >
               Choose a way to pay
             </Typography>
@@ -217,34 +217,34 @@ export default function App() {
               <RadioGroup
                 name="payment"
                 row
-                className="RadioGroup flex items-center gap-[10px] max-md:flex-wrap md:gap-3"
+                className="RadioGroup flex items-center gap-[10px] max-sm:flex-wrap sm:gap-3"
               >
-                <FormGroup className="max-md:flex-[50%] md:flex-1">
+                <FormGroup className="max-sm:flex-[50%] sm:flex-1">
                   <Radio id="cash" value="cash" />
                   <label
                     htmlFor="cash"
-                    className="static flex h-[60px] items-center justify-center rounded-xl border-2 border-solid border-[#edf2f7] bg-[#edf2f7] p-3 text-center text-lg font-semibold text-[#262626] max-md:text-[15px] max-md:leading-tight"
+                    className="static flex h-[60px] items-center justify-center rounded-xl border-2 border-solid border-[#edf2f7] bg-[#edf2f7] p-3 text-center text-lg font-semibold text-[#262626] max-sm:text-[15px] max-sm:leading-tight"
                   >
                     Cash
                   </label>
                 </FormGroup>
-                <FormGroup className="max-md:flex-[50%] md:flex-1">
+                <FormGroup className="max-sm:flex-[50%] sm:flex-1">
                   <Radio id="credit" value="credit" />
                   <label
                     htmlFor="credit"
-                    className="static flex h-[60px] items-center justify-center rounded-xl border-2 border-solid border-[#edf2f7] bg-[#edf2f7] p-3 text-center text-lg font-semibold text-[#262626] max-md:text-[15px] max-md:leading-tight"
+                    className="static flex h-[60px] items-center justify-center rounded-xl border-2 border-solid border-[#edf2f7] bg-[#edf2f7] p-3 text-center text-lg font-semibold text-[#262626] max-sm:text-[15px] max-sm:leading-tight"
                   >
                     Credit card
                   </label>
                 </FormGroup>
-                <FormGroup className="max-md:flex-[50%] md:flex-1">
+                <FormGroup className="max-sm:flex-[50%] sm:flex-1">
                   <Radio id="wallet" value="wallet" />
                   <label
                     htmlFor="wallet"
-                    className="static flex h-[60px] items-center justify-center rounded-xl border-2 border-solid border-[#edf2f7] bg-[#edf2f7] p-3 text-center text-lg font-semibold text-[#262626] max-md:text-[15px] max-md:leading-tight"
+                    className="static flex h-[60px] items-center justify-center rounded-xl border-2 border-solid border-[#edf2f7] bg-[#edf2f7] p-3 text-center text-lg font-semibold text-[#262626] max-sm:text-[15px] max-sm:leading-tight"
                   >
                     eWallet/
-                    <br className="md:hidden" />
+                    <br className="sm:hidden" />
                     Virtual bank
                   </label>
                 </FormGroup>
@@ -261,18 +261,18 @@ export default function App() {
             </Box>
           </Box>
         </DialogContent>
-        <DialogActions className="flex items-center justify-between border-x-0 border-t border-b-0 border-solid border-t-[#d3dee9] py-4 px-6 md:px-10 md:py-8">
+        <DialogActions className="flex items-center justify-between border-x-0 border-t border-b-0 border-solid border-t-[#d3dee9] py-4 px-6 sm:px-10 sm:py-8">
           <Button
             onClick={handleClose}
             variant="text"
-            className="px-0 text-[15px] normal-case text-[#262626] md:text-base"
+            className="px-0 text-[15px] normal-case text-[#262626] sm:text-base"
           >
             Previous
           </Button>
           <Button
             onClick={handleClose}
             variant="contained"
-            className="w-36 rounded-md py-3 text-[15px] normal-case md:rounded-xl md:py-4 md:text-lg"
+            className="w-36 rounded-md py-3 text-[15px] normal-case sm:rounded-xl sm:py-4 sm:text-lg"
           >
             Next
           </Button>
