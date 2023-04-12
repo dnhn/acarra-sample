@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { CssBaseline } from '@mui/material';
 import {
   createTheme,
   StyledEngineProvider,
   ThemeProvider,
 } from '@mui/material/styles';
-import { CssBaseline } from '@mui/material';
-import './index.scss';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import App from './App';
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
 
 const rootElement = document.getElementById('root');
@@ -49,7 +49,7 @@ root.render(
         <App />
       </ThemeProvider>
     </StyledEngineProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
 
 reportWebVitals();
