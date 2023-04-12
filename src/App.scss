@@ -1,0 +1,61 @@
+.MuiPaper-root {
+  &.MuiDialog-paperScrollBody {
+    width: 800px;
+    max-width: calc(100% - 64px);
+
+    @media (max-width: 768px) {
+      margin: 0;
+      max-width: 100%;
+    }
+  }
+}
+
+.MuiDialog-paper {
+  border-radius: 0;
+  box-shadow: 0 6px 200px rgba(113, 128, 150, .12);
+  background-color: white;
+
+  @media (min-width: 768px) {
+    border-radius: 20px;
+  }
+}
+
+.MuiTextField-root {
+  input + * {
+    border-color: #d3dee9;
+    border-radius: 12px;
+    padding: 20px;
+  }
+}
+
+.RadioGroup {
+  .MuiRadio-root {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .MuiFormGroup-root {
+    @media (max-width: 768px) {
+      max-width: calc(50% - 5px);
+    }
+  }
+
+  .Mui-checked {
+    + label {
+      border-color: #262626 !important;
+      background-color: white !important;
+    }
+  }
+}
+
+.LabelCheck {
+  @media (max-width: 768px) {
+    .MuiCheckbox-root {
+      padding-top: 0;
+    }
+
+    .MuiFormControlLabel-label {
+      font-size: 13px;
+    }
+  }
+}
