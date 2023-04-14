@@ -178,13 +178,15 @@ export default function App() {
                 </Typography>
               </Box>
             </Box>
-            <Typography
-              component="h3"
-              fontWeight={600}
-              className="mt-6 mb-5 text-[15px] sm:mt-[30px] sm:mb-5 sm:text-[22px]"
-            >
-              Enter your location
-            </Typography>
+            <label htmlFor="email">
+              <Typography
+                component="h3"
+                fontWeight={600}
+                className="mt-6 mb-5 text-[15px] sm:mt-[30px] sm:mb-5 sm:text-[22px]"
+              >
+                Enter your location
+              </Typography>
+            </label>
             <TextField
               id="email"
               type="email"
@@ -193,13 +195,15 @@ export default function App() {
               placeholder="Enter address"
               className="placeholder:text-[#d3dee9]"
             />
-            <Typography
-              component="h3"
-              fontWeight={600}
-              className="mt-6 mb-5 text-[15px] sm:mt-[30px] sm:mb-5 sm:text-[22px]"
-            >
-              Note (optional)
-            </Typography>
+            <label htmlFor="note">
+              <Typography
+                component="h3"
+                fontWeight={600}
+                className="mt-6 mb-5 text-[15px] sm:mt-[30px] sm:mb-5 sm:text-[22px]"
+              >
+                Note (optional)
+              </Typography>
+            </label>
             <TextField
               id="note"
               fullWidth
